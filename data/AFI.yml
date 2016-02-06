@@ -1,0 +1,12 @@
+--- !ruby/object:Stock
+sym: AFI
+p_cum: 5.77
+cps: 10
+amount_spent: 500
+amount_of_shares: 86.65511265164645
+dividends: 8.665511265164644
+dividends_with_franking: 12.379301807378067
+time: Thu Feb  4 11:36:17 2016
+p_ex: 5
+profit: -58.058925476603115
+profit_with_franking: -54.34513493438969
