@@ -9,12 +9,12 @@ class Terminal
 
   def print_intro
     puts "===========Dividend Stripping earnings calculator (DSER) by Noobling============"
-    puts "Format for new stock: [symbol] [buy share price] [cps] [money spent]"
+    puts "Format for new stock: [symbol] [buy share price] [cps] [number of shares] [liquid?]"
     puts "Load or create a new stock, type 'help' for help"
   end
 
   def get_query
-    print "Dank it: "
+    print "Enter command: "
     query = gets.chomp.split
     command = query[0]
     payload = query[1..-1]
@@ -32,14 +32,14 @@ class Terminal
         puts " Creating new stock #{payload[0]}"
         new_stock(payload)
       else
-        raise "unknow command, exiting because error handling is too dank for me"
+        raise "unknown command, exiting because error handling is too dank for me"
     end
   end
 
   def print_intro_help
     puts "Commands: (load) (stock) (help)"
     puts "(load) filename.yml"
-    puts "(stock) [symbol] [buy share price] [cps] [money spent]"
+    puts "(stock) [symbol] [buy share price] [cps] [number of shares]"
   end
 
   def load_stock(payload)
@@ -47,7 +47,7 @@ class Terminal
   end
 
   def new_stock(payload)
-    Stock.new(payload[0],payload[1].to_f,payload[2].to_i,payload[3].to_i)
+    Stock.new(payload[0],payload[1].to_f,payload[2].to_i,payload[3].to_i,payload[4])
   end
 
   def print_greeting
@@ -79,9 +79,15 @@ class Terminal
         raise "Interrupted by user"
       when 'help'
         print_help
+      when 'd'
+        @stock.details
       else puts "No such command"
     end
   end
 end
 
 Terminal.new.run
+
+# changes (0.1)
+# added print stock command
+# added in the new liquid argument
