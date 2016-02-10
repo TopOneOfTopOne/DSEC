@@ -39,7 +39,7 @@ class Terminal
   def print_intro_help
     puts "Commands: (load) (stock) (help)"
     puts "(load) filename.yml"
-    puts "(stock) [symbol] [buy share price] [cps] [number of shares]"
+    puts "(stock) [symbol] [buy share price] [cps] [number of shares] [liquid?]"
   end
 
   def load_stock(payload)
@@ -47,7 +47,7 @@ class Terminal
   end
 
   def new_stock(payload)
-    Stock.new(payload[0],payload[1].to_f,payload[2].to_i,payload[3].to_i,payload[4])
+    Stock.new(payload[0],payload[1].to_f,payload[2].to_f,payload[3].to_i,payload[4])
   end
 
   def print_greeting

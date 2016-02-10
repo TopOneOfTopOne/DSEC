@@ -1,8 +1,0 @@
---- !ruby/object:Stock
-sym: TAH
-p_cum: 4.27
-cps: 12
-amount_spent: 500
-amount_of_shares: 117.096018735363
-dividends: 14.05152224824356
-dividends_with_franking: 20.073603211776515

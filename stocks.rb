@@ -41,6 +41,7 @@ class Stock
       Dividends(franked): #{@dividends_with_franking}
       Profit: #{@profit}
       Profit(franked): #{@profit_with_franking}
+      Liquid?: #{@liquid}
       "
     )
   end

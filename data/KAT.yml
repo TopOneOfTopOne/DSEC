@@ -1,8 +1,0 @@
---- !ruby/object:Stock
-sym: KAT
-p_cum: 0.8
-cps: 1
-amount_spent: 500
-amount_of_shares: 625.0
-dividends: 6.25
-dividends_with_franking: 8.928571428571429
