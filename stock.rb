@@ -1,14 +1,15 @@
 require 'yaml'
 
 class Stock
-  attr_accessor :sym , :p_cum , :cps, :amount_spent, :p_ex, :profit , :dividends , :dividends_with_franking , :amount_of_shares , :profit , :profit_with_franking , :time, :liquid
-  def initialize(symbol,p_cum,cps,amount_of_shares,liquid)
+  attr_accessor :sym , :p_cum , :cps, :amount_spent, :p_ex, :profit , :dividends , :dividends_with_franking , :amount_of_shares , :profit , :profit_with_franking , :time, :liquid, :franked
+  def initialize(symbol,p_cum,cps,amount_of_shares,liquid,franked)
     @sym                     = symbol
     @p_cum                   = p_cum
     @cps                     = cps
     @liquid                  = liquid
     @amount_spent            = amount_of_shares * p_cum
     @amount_of_shares        = amount_of_shares
+    @franked                 = franked
     @dividends               = @amount_of_shares * (@cps/100.0)
     @dividends_with_franking = @amount_of_shares * ((@cps/100.0)/0.7)
   end
@@ -37,14 +38,17 @@ class Stock
       cps: #{@cps}
       Num of shares: #{@amount_of_shares}
       Amount spent: #{@amount_spent}
+      Franked?: #{@franked}
       Dividends: #{@dividends}
       Dividends(franked): #{@dividends_with_franking}
+      Pex: #{@p_ex}
       Profit: #{@profit}
       Profit(franked): #{@profit_with_franking}
       Liquid?: #{@liquid}
       "
     )
   end
+
   private
 
   def bl # bottom line
@@ -58,8 +62,3 @@ class Stock
   end
 
 end
-
-# changes (0.1)
-# added liquid boolean argument
-# taking stock amount instead of amount spent to give a more accurate end result
-# added printing of all arguments method for easier access

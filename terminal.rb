@@ -1,16 +1,18 @@
-require_relative 'stocks.rb'
+require_relative 'stock.rb'
 
 class Terminal
   attr_accessor :stock
   def initialize
     print_intro
-    @stock = execute_intro(get_query)
+    # @stock = execute_intro(get_query) # not needed for now
   end
 
   def print_intro
     puts "===========Dividend Stripping earnings calculator (DSER) by Noobling============"
-    puts "Format for new stock: [symbol] [buy share price] [cps] [number of shares] [liquid?]"
-    puts "Load or create a new stock, type 'help' for help"
+    puts(
+    "Format for new stock:
+      [symbol] [buy share price] [cps] [number of shares] [liquid?] [franked?]")
+    puts "Type 'h' for help"
   end
 
   def get_query
@@ -21,46 +23,36 @@ class Terminal
     [command,payload]
   end
 
-  def execute_intro(query)
-    command,payload = query
-    case command
-      when 'help' then print_intro_help
-      when 'load'
-        puts "  Loading #{payload[0]}..."
-        load_stock(payload)
-      when 'stock'
-        puts " Creating new stock #{payload[0]}"
-        new_stock(payload)
-      else
-        raise "unknown command, exiting because error handling is too dank for me"
-    end
-  end
-
-  def print_intro_help
-    puts "Commands: (load) (stock) (help)"
-    puts "(load) filename.yml"
-    puts "(stock) [symbol] [buy share price] [cps] [number of shares] [liquid?]"
-  end
-
   def load_stock(payload)
-    Stock.load(payload[0])
+    puts "  Loading #{payload[0]}..."
+    Stock.load("data/#{payload[0]}.yml")
   end
 
   def new_stock(payload)
-    Stock.new(payload[0],payload[1].to_f,payload[2].to_f,payload[3].to_i,payload[4])
-  end
-
-  def print_greeting
-    puts "Type 'help' for available commands"
+    puts "  Creating new stock #{payload[0]}..."
+    stock = Stock.new(payload[0],payload[1].to_f,payload[2].to_f,payload[3].to_i,payload[4],payload[5])
+    stock.save
+    stock
   end
 
   def print_help
-    puts "Commands: (sell) (save) (quit)"
-    puts "(sell) [price ex-dividend]"
+    puts "
+          (l)oad   <code>
+          (sell)   <price>
+          (stock)  <[symbol] [buy share price] [cps] [number of shares] [liquid?] [franked?]>
+          (q)uit
+          (d)etails
+          (h)elp
+         "
+  end
+
+  def sell_stock(price)
+    @stock.sell(price[0].to_f)
+    puts "  writing to #{@stock.sym}_log.txt..."
+    @stock.save 
   end
 
   def run
-    print_greeting
     loop do
       execute(get_query)
     end
@@ -70,14 +62,15 @@ class Terminal
   def execute(query)
     command,payload = query
     case command
+      when 'l'
+        @stock = load_stock(payload)
+      when 'stock'
+        @stock = new_stock(payload)
       when 'sell'
-        @stock.sell(payload[0].to_f)
-        puts "  writing to #{@stock.sym}_log.txt..."
-      when 'save' then @stock.save
-      puts "Saving to #{@stock.sym}.yml"
-      when 'quit'
+        sell_stock(payload)
+      when 'q'
         raise "Interrupted by user"
-      when 'help'
+      when 'h'
         print_help
       when 'd'
         @stock.details
@@ -88,6 +81,3 @@ end
 
 Terminal.new.run
 
-# changes (0.1)
-# added print stock command
-# added in the new liquid argument
