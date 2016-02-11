@@ -1,0 +1,9 @@
+--- !ruby/object:Stock
+sym: MGP
+p_cum: 0.31
+cps: 0.2
+liquid: 'no'
+amount_spent: 4030.0
+amount_of_shares: 13000
+dividends: 26.0
+dividends_with_franking: 37.142857142857146

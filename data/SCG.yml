@@ -1,0 +1,9 @@
+--- !ruby/object:Stock
+sym: SCG
+p_cum: 4.36
+cps: 10.45
+liquid: 'yes'
+amount_spent: 3989.4
+amount_of_shares: 915
+dividends: 95.61749999999999
+dividends_with_franking: 136.5964285714286

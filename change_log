@@ -1,0 +1,16 @@
+########## [terminal.rb] ##########
+========== changes (0.1) ==========
+# added print stock command
+# added in the new liquid argument
+========== changes (0.2) ==========
+# only need to type ticker symbol rather than full path for load
+#added auto saving upon selling and creation of stock
+# shortened the commands
+
+########## [stock.rb] ##########
+========= changes (0.1) ==========
+# added liquid boolean argument
+# taking stock amount instead of amount spent to give a more accurate end result
+# added printing of all arguments method for easier access
+========== changes (0.2) ==========
+# added franked option

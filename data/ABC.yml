@@ -1,0 +1,14 @@
+--- !ruby/object:Stock
+sym: ABC
+p_cum: 10.0
+cps: 10.0
+liquid: 'no'
+amount_spent: 10000.0
+amount_of_shares: 1000
+dividends: 100.0
+dividends_with_franking: 142.8571428571429
+time: Thu Feb 11 10:20:22 2016
+p_ex: 9.0
+profit: -900.0
+profit_with_franking: -857.1428571428571
+franked: 'no'

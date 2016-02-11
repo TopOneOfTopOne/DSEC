@@ -1,0 +1,9 @@
+--- !ruby/object:Stock
+sym: ANN
+p_cum: 16.57
+cps: 27.8
+liquid: 'yes'
+amount_spent: 3976.8
+amount_of_shares: 240
+dividends: 66.72
+dividends_with_franking: 95.31428571428573

@@ -1,0 +1,13 @@
+--- !ruby/object:Stock
+sym: WFD
+p_cum: 9.6
+cps: 17.5
+liquid: 'yes'
+amount_spent: 3984.0
+amount_of_shares: 415
+dividends: 72.625
+dividends_with_franking: 103.75
+time: Thu Feb 11 09:33:27 2016
+p_ex: 9.5
+profit: 31.125
+profit_with_franking: 62.25

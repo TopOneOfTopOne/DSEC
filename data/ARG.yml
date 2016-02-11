@@ -1,0 +1,13 @@
+--- !ruby/object:Stock
+sym: ARG
+p_cum: 7.48
+cps: 15.0
+liquid: 'yes'
+amount_spent: 3964.4
+amount_of_shares: 530
+dividends: 79.5
+dividends_with_franking: 113.57142857142858
+time: Thu Feb 11 09:56:16 2016
+p_ex: 7.35
+profit: 10.599999999999909
+profit_with_franking: 44.67142857142849

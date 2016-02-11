@@ -1,0 +1,9 @@
+--- !ruby/object:Stock
+sym: MLT
+p_cum: 4.39
+cps: 8.7
+liquid: 'yes'
+amount_spent: 3994.8999999999996
+amount_of_shares: 910
+dividends: 79.16999999999999
+dividends_with_franking: 113.10000000000001
