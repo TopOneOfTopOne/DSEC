@@ -4,5 +4,5 @@
 #To run on double click:
 # chmod a+x yourscriptname
 # change the default application to terminal in finder
-
-ruby Desktop/DSEC/terminal.rb
+cd Desktop/DSEC 
+ruby terminal.rb
