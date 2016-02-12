@@ -1,0 +1,14 @@
+--- !ruby/object:Stock
+sym: PMC
+p_cum: 1.58
+cps: 3.0
+liquid: 'yes'
+amount_spent: 3998.98
+amount_of_shares: 2531
+franked: 'yes'
+dividends: 75.92999999999999
+dividends_with_franking: 108.47142857142858
+time: Fri Feb 12 09:20:21 2016
+p_ex: 1.555
+profit: 12.654999999999902
+profit_with_franking: 45.196428571428484

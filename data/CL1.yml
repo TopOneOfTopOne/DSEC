@@ -1,0 +1,14 @@
+--- !ruby/object:Stock
+sym: CL1
+p_cum: 2.01
+cps: 1.0
+liquid: 'yes'
+amount_spent: 3999.8999999999996
+amount_of_shares: 1990
+franked: 'no'
+dividends: 19.900000000000002
+dividends_with_franking: 28.42857142857143
+time: Fri Feb 12 09:06:41 2016
+p_ex: 2.03
+profit: 59.70000000000019
+profit_with_franking: 68.22857142857161
