@@ -1,0 +1,14 @@
+--- !ruby/object:Stock
+sym: KAM
+p_cum: 0.5
+cps: 1.0
+liquid: not_entirely
+amount_spent: 4000.0
+amount_of_shares: 8000
+franked: 'yes'
+dividends: 80.0
+dividends_with_franking: 114.28571428571429
+time: Mon Feb 15 08:07:20 2016
+p_ex: 0.48
+profit: -80.0
+profit_with_franking: -45.71428571428571

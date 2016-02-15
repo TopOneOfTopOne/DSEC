@@ -1,0 +1,10 @@
+--- !ruby/object:Stock
+sym: BLD
+p_cum: 5.845
+cps: 11.0
+liquid: 'yes'
+amount_spent: 3997.98
+amount_of_shares: 684
+franked: 'yes'
+dividends: 75.24
+dividends_with_franking: 107.48571428571431

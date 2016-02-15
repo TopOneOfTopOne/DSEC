@@ -1,0 +1,10 @@
+--- !ruby/object:Stock
+sym: CBA
+p_cum: 74.3
+cps: 198.0
+liquid: 'yes'
+amount_spent: 3937.8999999999996
+amount_of_shares: 53
+franked: 'yes'
+dividends: 104.94
+dividends_with_franking: 149.9142857142857

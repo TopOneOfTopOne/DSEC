@@ -1,0 +1,10 @@
+--- !ruby/object:Stock
+sym: DOW
+p_cum: 3.17
+cps: 12.0
+liquid: 'yes'
+amount_spent: 3994.2
+amount_of_shares: 1260
+franked: 'yes'
+dividends: 151.2
+dividends_with_franking: 216.0

@@ -1,0 +1,34 @@
+ After a stock goes ex-dividend a lot of people will try to sell and if the stock is illiquid all the buyers maybe taken up
+
+Being late a few minutes lose arbitrage opportunity 
+
+Stocks with margin lending are liquid and vice versa 
+
+Margin lending 70% -> 1 share only need to pay 30% cash but if share price declines by > 5% you have to pay the decrease 
+
+Hypothesis: On average Pex = Pcum - div*0.55 (taxing at highest tax rate)
+Pex is greater following good runs in other markets
+
+Strategy: To pick a stock if multiple dividend stocks fall on the same day choose one with the highest yield 
+
+11/02/16
+Out of the 6 stocks (ARG,MLT,MGP,SCG,WFD,ANN) 2 lost (MLT,MGP). MGP is no surprise because it is illiquid. However MLT lost which is a surprise. It was a potential one to bet in because it had one of the highest yields. This marks potential losses using dividend stripping. The other major markets had good runs overnight, perhaps that is why the ASX had a good opening run. Perhaps the price of shares are more influenced by the US market than dividends. ANN and WFD both did not follow the above hypothesis settling at a price above the hypothesis price. ARG and SCG followed the hypothesis. 
+
+12/02/16
+PMC first few trades followed my hypothesis but than the price crashed. This could be due to poor performance in the US market. PMC is a diversified financial and diversified financials in US market were down around 2%. CL1 had a 0.5% yield so I doubt the dividend had any bearing on the Pex price (Contradiction here, perhaps as stated on 11/02 stocks are just more influenced by US market than dividends). CL1 was positive, perhaps also due to the US market. CL1 is a software and services company and that sector was up in the US markets (~0.2%). So key take aways today my hypothesis still has legitimacy but I have to now watch each sector performance in the us market. This site provides such info (https://eresearch.fidelity.com/eresearch/markets_sectors/sectors/sectors_in_market.jhtml
+
+15/02/16
+My previous thought that indvidual sectors of the Australian market was influenced by the individual secots of the US market was proved to be false today. There is correlation but very little. Rather I believe now the AU share market does indeed follow the US share market but as a whole and not on an individual sector basis. There was only one stock today KAM and that was illiquid with huge relative bid ask spreads. I would not have entered into this and this further proves the point that we should not enter into illiquid stocks. 
+
+low = Pcum/1.05
+high = Pcum - div
+Trading strategy:
+if Pex > Pcum - div
+  trade
+else if Pex.between?(low,high) && trade_occured?
+  trade
+else 
+  set_limit_sell_order(Pcum-div)
+end
+
+
