@@ -23,12 +23,13 @@ class Terminal
   end
 
   def load_stock(payload)
-    puts "  Loading #{payload[0]}..."
-    Stock.load("data/#{payload[0]}.yml")
+      puts "  Attempting to load #{payload[0]}..."
+      Stock.load("data/#{payload[0]}.yml")
   end
 
   def new_stock(payload)
-    puts "  Creating new stock #{payload[0]}..."
+    puts "  Attempting to create #{payload[0]}..."
+    raise ArgumentError if payload.length != 6 
     stock = Stock.new(payload[0],payload[1].to_f,payload[2].to_f,payload[3].to_i,payload[4],payload[5])
     stock.save
     stock
@@ -53,7 +54,18 @@ class Terminal
 
   def run
     loop do
-      execute(get_query)
+      begin 
+        execute(get_query)
+      rescue NoMethodError 
+        puts "  You need to (l)oad or make a new (stock) to issue this command"
+        retry 
+      rescue Errno::ENOENT 
+        puts "  No such file try again."
+        retry
+      rescue ArgumentError
+        puts "  Entered too many or too few arguments, try again." 
+        retry
+      end
     end
     puts "Terminal session ended"
   end
@@ -63,17 +75,19 @@ class Terminal
     case command
       when 'l'
         @stock = load_stock(payload)
+        @stock.details
       when 'stock'
         @stock = new_stock(payload)
+        @stock.details
       when 'sell'
         sell_stock(payload)
       when 'q'
-        raise "Interrupted by user"
+        raise "  Interrupted by user"
       when 'h'
         print_help
       when 'd'
         @stock.details
-      else puts "No such command"
+      else puts "  No such command"
     end
   end
 end
