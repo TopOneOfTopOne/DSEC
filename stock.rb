@@ -1,7 +1,7 @@
 require 'yaml'
 
 class Stock
-  attr_accessor :sym , :p_cum , :cps, :amount_spent, :p_ex, :profit , :dividends , :dividends_with_franking , :amount_of_shares , :profit , :profit_with_franking , :time, :liquid, :franked
+  attr_accessor :sym , :p_cum , :cps, :amount_spent, :p_ex, :profit , :dividends , :dividends_with_franking , :amount_of_shares , :profit , :profit_with_franking , :time, :liquid, :franked, :yield, :hypo_price
   def initialize(symbol,p_cum,cps,amount_of_shares,liquid,franked)
     @sym                     = symbol
     @p_cum                   = p_cum
@@ -12,6 +12,8 @@ class Stock
     @franked                 = franked
     @dividends               = @amount_of_shares * (@cps/100.0)
     @dividends_with_franking = @amount_of_shares * ((@cps/100.0)/0.7)
+    @yield                   = (cps/p_cum)
+    @hypo_price              = p_cum - ((cps/100)*0.85)
   end
 
   def save
@@ -41,6 +43,8 @@ class Stock
       Franked?: #{@franked}
       Dividends: #{@dividends}
       Dividends(franked): #{@dividends_with_franking}
+      Yield: #{@yield}% 
+      Hypothesis price: #{@hypo_price}
       Pex: #{@p_ex}
       Profit: #{@profit}
       Profit(franked): #{@profit_with_franking}

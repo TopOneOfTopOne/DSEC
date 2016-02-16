@@ -8,3 +8,7 @@ amount_of_shares: 53
 franked: 'yes'
 dividends: 104.94
 dividends_with_franking: 149.9142857142857
+time: Tue Feb 16 07:18:37 2016
+p_ex: 72.0
+profit: -16.95999999999964
+profit_with_franking: 28.014285714286075

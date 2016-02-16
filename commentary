@@ -20,6 +20,9 @@ PMC first few trades followed my hypothesis but than the price crashed. This cou
 15/02/16
 My previous thought that indvidual sectors of the Australian market was influenced by the individual secots of the US market was proved to be false today. There is correlation but very little. Rather I believe now the AU share market does indeed follow the US share market but as a whole and not on an individual sector basis. There was only one stock today KAM and that was illiquid with huge relative bid ask spreads. I would not have entered into this and this further proves the point that we should not enter into illiquid stocks. 
 
+16/02/16
+US market was closed for presedential day (something like that). However the other markets were up so I expected prices to be above my hypothesis price Pex = Pcum - Div(0.15). This was true for two stocks BLD and DOW. However the concern today was that CBA fell below hypothesis price but at one point it was above hypothesis price. So this is a tricky situation, at what price should I set my limit order at? Should I always set it at hypothesis price? Right now I am thinking set limit order at 1% above hypothesis price in good market and hypothesis price in bad market.  
+
 low = Pcum/1.05
 high = Pcum - div
 Trading strategy:
