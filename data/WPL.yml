@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: WPL
+p_cum: 28.02
+cps: 60.1
+liquid: 'yes'
+amount_spent: 4006.86
+amount_of_shares: 143
+dividends: 85.943
+dividends_with_franking: 122.77571428571429
+franked: 'yes'
+yield: 2.1448965024982156
+hypo_price: 27.509149999999998
+time: Mon Feb 22 07:13:39 2016
+p_ex: 27.5
+profit: 11.58299999999987
+profit_with_franking: 48.41571428571416

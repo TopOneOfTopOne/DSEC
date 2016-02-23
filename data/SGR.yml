@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: SGR
+p_cum: 5.51
+cps: 5.5
+liquid: 'yes'
+amount_spent: 4005.77
+amount_of_shares: 727
+dividends: 39.985
+dividends_with_franking: 57.12142857142858
+franked: 'yes'
+yield: 0.9981851179673321
+hypo_price: 5.4632499999999995
+time: Fri Feb 19 08:44:43 2016
+p_ex: 5.34
+profit: -83.60500000000015
+profit_with_franking: -66.46857142857156

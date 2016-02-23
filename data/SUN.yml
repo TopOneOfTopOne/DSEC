@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: SUN
+p_cum: 11.46
+cps: 30.0
+liquid: 'yes'
+amount_spent: 3999.5400000000004
+amount_of_shares: 349
+franked: 'yes'
+dividends: 104.7
+dividends_with_franking: 149.57142857142858
+yield: 2.6178010471204187
+hypo_price: 11.205
+time: Thu Feb 18 09:29:09 2016
+p_ex: 11.25
+profit: 31.409999999999584
+profit_with_franking: 76.28142857142817

@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: CIE
+p_cum: 0.96
+cps: 3.0
+liquid: 'no'
+amount_spent: 3999.3599999999997
+amount_of_shares: 4166
+franked: 'yes'
+dividends: 124.97999999999999
+dividends_with_franking: 178.54285714285714
+yield: 3.125
+hypo_price: 0.9345
+time: Wed Feb 17 07:15:58 2016
+p_ex: 0.95
+profit: 83.32000000000014
+profit_with_franking: 136.8828571428573

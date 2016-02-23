@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: JBH
+p_cum: 22.67
+cps: 63.0
+liquid: 'yes'
+amount_spent: 3989.92
+amount_of_shares: 176
+franked: 'yes'
+dividends: 110.88
+dividends_with_franking: 158.4
+yield: 2.7790030877812084
+hypo_price: 22.134500000000003
+time: Wed Feb 17 07:19:32 2016
+p_ex: 22.16
+profit: 21.119999999999777
+profit_with_franking: 68.63999999999979

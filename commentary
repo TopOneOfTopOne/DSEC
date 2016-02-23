@@ -23,6 +23,26 @@ My previous thought that indvidual sectors of the Australian market was influenc
 16/02/16
 US market was closed for presedential day (something like that). However the other markets were up so I expected prices to be above my hypothesis price Pex = Pcum - Div(0.15). This was true for two stocks BLD and DOW. However the concern today was that CBA fell below hypothesis price but at one point it was above hypothesis price. So this is a tricky situation, at what price should I set my limit order at? Should I always set it at hypothesis price? Right now I am thinking set limit order at 1% above hypothesis price in good market and hypothesis price in bad market.  
 
+17/02/16
+US market closed up following good news with agreements to cut oil production. All liquid stocks reached the hypothesis price at one point or another. This is promising as it represents a good strategy with solid gains. There does appear to be momentum i.e. the price keeps rising passed the hypo price this could represent good gains but at this point I do not have enough experience so sticking to hypo price would be good for my first trade. However my results might be skewed since the US markets have been positive most the time this past few days causing prices to more likely reach hypo price. Even though the US market closed high the AU market opened lower. The Aus market did indeed close lower. This suggests there is weak correlation between Aus market and US market. 
+
+18/02/16
+All markets were up today following cuts to oil production. All stocks with dividends were above hypo price. I may adjust my strategy than if I strongly believe the AU market will rise however my first trade will still be at hypo price since it has show reliably that regardless of a down or up AU market at some point the stock price reaches or reaches closely to hypo price. 
+
+19/02/16
+US markets were down and so were AU markets. The dividend stock today had a very low yield > 1%. So the dividends should not have affected price much. And that was demonstrated the stock was affected more by the down US market falling to a price well below hypo price. However I would have never bought this stock regardless this reflects a pitfall. So perhaps a down market means that stocks price may fall even lower never reaching hypo price
+
+23/02/16
+Looking at what my strategy is, in essence if i assumed  I gained nothing from dividends and just trying to profit from franking credits I will be looking at a return of 30% minus brokerage costs. To maximise returns than I need to minimise brokerage costs so I trade infrequntly looking for highest yield stocks. But the sooner I trade the sooner I can recieve my dividends and trade again in order to recieve more franking credits. Margin lending probably will change all this
+
+
+==============Focus: hypothesis price=================
+
+Future Focuses/Research: 
+1. No difference between choosing low yield and high yield. Difference comes from being able to iterate through the cycle again faster choosing high yield. 
+2. Receiving franking credits earlier 
+
+
 low = Pcum/1.05
 high = Pcum - div
 Trading strategy:

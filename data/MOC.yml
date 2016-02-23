@@ -1,0 +1,12 @@
+--- !ruby/object:Stock
+sym: MOC
+p_cum: 1.85
+cps: 8.0
+liquid: 'yes'
+amount_spent: 3999.7000000000003
+amount_of_shares: 2162
+dividends: 172.96
+dividends_with_franking: 247.08571428571432
+franked: 'yes'
+yield: 4.324324324324324
+hypo_price: 1.782

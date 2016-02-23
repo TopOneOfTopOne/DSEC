@@ -1,0 +1,12 @@
+--- !ruby/object:Stock
+sym: CCL
+p_cum: 8.72
+cps: 30.32
+liquid: 'yes'
+amount_spent: 4002.4800000000005
+amount_of_shares: 459
+dividends: 139.1688
+dividends_with_franking: 198.81257142857146
+franked: includedinCPS
+yield: 3.477064220183486
+hypo_price: 8.46228

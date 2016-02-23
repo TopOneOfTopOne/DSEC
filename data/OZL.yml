@@ -1,0 +1,12 @@
+--- !ruby/object:Stock
+sym: OZL
+p_cum: 5.08
+cps: 14.0
+liquid: 'yes'
+amount_spent: 3997.96
+amount_of_shares: 787
+dividends: 110.18
+dividends_with_franking: 157.40000000000003
+franked: 'no'
+yield: 2.7559055118110236
+hypo_price: 4.961

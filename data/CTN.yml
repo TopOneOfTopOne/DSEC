@@ -1,0 +1,12 @@
+--- !ruby/object:Stock
+sym: CTN
+p_cum: 0.93
+cps: 2.6
+liquid: 50%
+amount_spent: 3999.9300000000003
+amount_of_shares: 4301
+franked: semi
+dividends: 111.82600000000001
+dividends_with_franking: 159.75142857142862
+yield: 2.7956989247311825
+hypo_price: 0.9079

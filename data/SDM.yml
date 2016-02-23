@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: SDM
+p_cum: 1.075
+cps: 12.3
+liquid: 'yes'
+amount_spent: 3999.0
+amount_of_shares: 3720
+dividends: 457.56000000000006
+dividends_with_franking: 653.657142857143
+franked: 'yes'
+yield: 11.44186046511628
+hypo_price: 0.9704499999999999
+time: Tue Feb 23 08:16:57 2016
+p_ex: 0.95
+profit: -7.439999999999941
+profit_with_franking: 188.65714285714296

@@ -1,0 +1,12 @@
+--- !ruby/object:Stock
+sym: CSV
+p_cum: 1.41
+cps: 4.0
+liquid: 'no'
+amount_spent: 4000.1699999999996
+amount_of_shares: 2837
+franked: semi
+dividends: 113.48
+dividends_with_franking: 162.11428571428573
+yield: 2.8368794326241136
+hypo_price: 1.376

@@ -1,0 +1,12 @@
+--- !ruby/object:Stock
+sym: XRF
+p_cum: 0.19
+cps: 0.2
+liquid: 'no'
+amount_spent: 4000.07
+amount_of_shares: 21053
+franked: 'yes'
+dividends: 42.106
+dividends_with_franking: 60.15142857142858
+yield: 1.0526315789473684
+hypo_price: 0.1883

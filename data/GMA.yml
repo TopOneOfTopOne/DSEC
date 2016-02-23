@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: GMA
+p_cum: 2.42
+cps: 19.3
+liquid: 'yes'
+amount_spent: 4000.2599999999998
+amount_of_shares: 1653
+franked: 'yes'
+dividends: 319.029
+dividends_with_franking: 455.75571428571436
+yield: 7.975206611570249
+hypo_price: 2.25595
+time: Wed Feb 17 07:18:49 2016
+p_ex: 2.25
+profit: 38.01900000000023
+profit_with_franking: 174.7457142857146

@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: GUD
+p_cum: 6.45
+cps: 20.0
+liquid: 'yes'
+amount_spent: 3999.0
+amount_of_shares: 620
+franked: 'yes'
+dividends: 124.0
+dividends_with_franking: 177.14285714285717
+yield: 3.1007751937984493
+hypo_price: 6.28
+time: Wed Feb 17 07:21:32 2016
+p_ex: 6.28
+profit: 18.600000000000364
+profit_with_franking: 71.74285714285753

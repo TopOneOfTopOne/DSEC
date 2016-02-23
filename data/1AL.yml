@@ -1,0 +1,12 @@
+--- !ruby/object:Stock
+sym: 1AL
+p_cum: 1.0
+cps: 4.0
+liquid: 'no'
+amount_spent: 4000.0
+amount_of_shares: 4000
+franked: 'no'
+dividends: 160.0
+dividends_with_franking: 228.57142857142858
+yield: 4.0
+hypo_price: 0.966

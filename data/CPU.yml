@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: CPU
+p_cum: 9.22
+cps: 16.0
+liquid: 'yes'
+amount_spent: 4001.4800000000005
+amount_of_shares: 434
+franked: 'yes'
+dividends: 69.44
+dividends_with_franking: 99.2
+yield: 1.7353579175704987
+hypo_price: 9.084000000000001
+time: Thu Feb 18 09:27:21 2016
+p_ex: 9.16
+profit: 43.39999999999958
+profit_with_franking: 73.15999999999958
