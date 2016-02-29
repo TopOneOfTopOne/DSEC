@@ -1,0 +1,17 @@
+--- !ruby/object:Stock
+sym: INA
+p_cum: 2.73
+cps: 4.2
+liquid: 'yes'
+amount_spent: 4095.0
+amount_of_shares: 1500
+franked: 'yes'
+dividends: 63.00000000000001
+dividends_with_franking: 90.0
+yield: 1.5384615384615385
+hypo_price: 2.6943
+abs_path_of_file: "/Users/CEO/Desktop/DSEC"
+time: Mon Feb 29 15:36:07 2016
+p_ex: 2.7
+profit: 18.000000000000462
+profit_with_franking: 45.000000000000455

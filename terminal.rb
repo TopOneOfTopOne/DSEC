@@ -4,6 +4,7 @@ class Terminal
   attr_accessor :stock
   def initialize
     print_intro
+    @abs_path = File.expand_path(File.dirname(__FILE__))
   end
 
   def print_intro
@@ -24,7 +25,7 @@ class Terminal
 
   def load_stock(payload)
       puts "  Attempting to load #{payload[0]}..."
-      Stock.load("data/#{payload[0]}.yml")
+      Stock.load("#{@abs_path}/data/#{payload[0]}.yml")
   end
 
   def new_stock(payload)
@@ -48,7 +49,7 @@ class Terminal
 
   def sell_stock(price)
     @stock.sell(price[0].to_f)
-    puts "  writing to #{@stock.sym}_log.txt..."
+    puts "  writing to #{@abs_path}/#{@stock.sym}_log.txt..."
     @stock.save 
   end
 

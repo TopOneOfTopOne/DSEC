@@ -1,0 +1,13 @@
+--- !ruby/object:Stock
+sym: wefklj
+p_cum: 0.0
+cps: 0.0
+liquid: fekwjl
+amount_spent: 0.0
+amount_of_shares: 0
+franked: fewk
+dividends: 0.0
+dividends_with_franking: 0.0
+yield: .nan
+hypo_price: 0.0
+abs_path_of_file: "/Users/CEO/Desktop/DSEC"

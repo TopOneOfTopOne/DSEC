@@ -14,10 +14,11 @@ class Stock
     @dividends_with_franking = @amount_of_shares * ((@cps/100.0)/0.7)
     @yield                   = (cps/p_cum)
     @hypo_price              = p_cum - ((cps/100)*0.85)
+    @abs_path_of_file        = File.expand_path(File.dirname(__FILE__))
   end
 
   def save
-    File.open("data/#{@sym}.yml",'w') {|f| f.puts self.to_yaml}
+    File.open("#{@abs_path_of_file}/data/#{@sym}.yml",'w') {|f| f.puts self.to_yaml}
   end
 
   def sell(p_ex)
@@ -62,7 +63,7 @@ class Stock
   end
 
   def log(data)
-    File.open("logs/#{@sym}_log.txt",'a') {|f| f.puts data}
+    File.open("#{@abs_path_of_file}/logs/#{@sym}_log.txt",'a') {|f| f.puts data}
   end
 
 end
