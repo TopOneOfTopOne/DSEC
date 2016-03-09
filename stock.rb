@@ -1,17 +1,17 @@
 require 'yaml'
 
 class Stock
-  attr_accessor :sym , :p_cum , :cps, :amount_spent, :p_ex, :profit , :dividends , :dividends_with_franking , :amount_of_shares , :profit , :profit_with_franking , :time, :liquid, :franked, :yield, :hypo_price
-  def initialize(symbol,p_cum,cps,amount_of_shares,liquid,franked)
+  attr_accessor :sym , :p_cum , :cps, :amount_spent, :p_ex, :profit , :dividends , :dividends_with_franking , :amount_of_shares , :profit , :profit_with_franking , :time, :liquid, :franking, :yield, :hypo_price
+  def initialize(symbol,p_cum,cps,amount_of_shares,liquid,franking)
     @sym                     = symbol
     @p_cum                   = p_cum
     @cps                     = cps
     @liquid                  = liquid
     @amount_spent            = amount_of_shares * p_cum
     @amount_of_shares        = amount_of_shares
-    @franked                 = franked
+    @franking                = franking.to_f 
     @dividends               = @amount_of_shares * (@cps/100.0)
-    @dividends_with_franking = @amount_of_shares * ((@cps/100.0)/0.7)
+    @franking_credits        = ((@dividends/0.7) - @dividends) * @franking
     @yield                   = (cps/p_cum)
     @hypo_price              = p_cum - ((cps/100)*0.85)
     @abs_path_of_file        = File.expand_path(File.dirname(__FILE__))
@@ -25,7 +25,6 @@ class Stock
     @time = Time.now.ctime
     @p_ex = p_ex
     @profit = -@amount_spent + (p_ex * @amount_of_shares) + @dividends
-    @profit_with_franking = @profit -@dividends + @dividends_with_franking
     bl
   end
 
@@ -57,7 +56,7 @@ class Stock
   private
 
   def bl # bottom line
-    bl= "Trading #{@sym} earned $#{@profit} or $#{@profit_with_franking} with 100% franking at #{@time}"
+    bl= "<#{@time}> code: #{@sym} profit: $#{@profit} franking_credits:$#{@franking_credits} yield: #{@yield} liquidity: #{@liquid}"
     puts bl
     log(bl)
   end
