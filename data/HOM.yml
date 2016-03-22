@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: HOM
+p_cum: 0.5
+cps: 2.0
+liquid: idk
+amount_spent: 4000.0
+amount_of_shares: 8000
+franking: 100.0
+dividends: 160.0
+franking_credits: 6857.142857142859
+yield: 4.0
+hypo_price: 0.483
+abs_path_of_file: "/Users/CEO/Desktop/my programs/DSEC"
+time: Thu Mar 10 20:24:51 2016
+p_ex: 0.485
+profit: 40.0

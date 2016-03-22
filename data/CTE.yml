@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: CTE
+p_cum: 0.19
+cps: 0.5
+liquid: 'no'
+amount_spent: 4000.07
+amount_of_shares: 21053
+franking: 0.0
+dividends: 105.265
+franking_credits: 0.0
+yield: 2.6315789473684212
+hypo_price: 0.18575
+abs_path_of_file: "/Users/CEO/Desktop/my programs/DSEC"
+time: Thu Mar 10 20:06:40 2016
+p_ex: 0.185
+profit: -3.268496584496461e-13

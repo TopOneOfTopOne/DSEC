@@ -1,0 +1,1 @@
+<Wed Mar  9 15:13:37 2016> code: ARA profit: $22.535999999999916 franking_credits:$4.829142857142859 yield: 1.4084507042253522 liquidity: yes

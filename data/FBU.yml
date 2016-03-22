@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: FBU
+p_cum: 7.04
+cps: 15.04
+liquid: 'yes'
+amount_spent: 3681.92
+amount_of_shares: 523
+franking: 0.0
+dividends: 78.65919999999998
+franking_credits: 0.0
+yield: 2.1363636363636362
+hypo_price: 6.91216
+abs_path_of_file: "/Users/CEO/Desktop/my programs/DSEC"
+time: Tue Mar 22 12:33:27 2016
+p_ex: 6.96
+profit: 36.81919999999984

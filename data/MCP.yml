@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: MCP
+p_cum: 1.005
+cps: 6.0
+liquid: 'yes'
+amount_spent: 3999.8999999999996
+amount_of_shares: 3980
+franking: 1.0
+dividends: 238.79999999999998
+franking_credits: 102.34285714285718
+yield: 5.970149253731344
+hypo_price: 0.9539999999999998
+abs_path_of_file: "/Users/CEO/Desktop/my programs/DSEC"
+time: Mon Mar 21 12:11:11 2016
+p_ex: 0.94
+profit: -19.899999999999835

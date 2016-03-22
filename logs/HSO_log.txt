@@ -1,0 +1,1 @@
+<Wed Mar  9 15:16:10 2016> code: HSO profit: $25.104000000000312 franking_credits:$0.0 yield: 1.3725490196078431 liquidity: yes

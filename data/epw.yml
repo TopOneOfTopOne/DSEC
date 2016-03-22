@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: epw
+p_cum: 1.56
+cps: 6.0
+liquid: idk
+amount_spent: 2012.4
+amount_of_shares: 1290
+franking: 0.0
+dividends: 77.39999999999999
+franking_credits: 0.0
+yield: 3.846153846153846
+hypo_price: 1.5090000000000001
+abs_path_of_file: "/Users/CEO/Desktop/my programs/DSEC"
+time: Thu Mar 10 20:15:40 2016
+p_ex: 1.5
+profit: -9.947598300641403e-14

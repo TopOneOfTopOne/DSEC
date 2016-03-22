@@ -1,0 +1,7 @@
+<Thu Mar 10 20:09:59 2016> code: epw profit: $90.33499999999944 franking_credits:$0.0 yield: 3.8709677419354835 liquidity: idk
+<Thu Mar 10 20:11:10 2016> code: epw profit: $45.149999999999764 franking_credits:$0.0 yield: 3.8709677419354835 liquidity: idk
+<Thu Mar 10 20:12:22 2016> code: epw profit: $12.899999999999991 franking_credits:$0.0 yield: 3.8709677419354835 liquidity: idk
+<Thu Mar 10 20:13:06 2016> code: epw profit: $-9.947598300641403e-14 franking_credits:$0.0 yield: 3.8709677419354835 liquidity: idk
+<Thu Mar 10 20:14:53 2016> code: epw profit: $32.24999999999967 franking_credits:$0.0 yield: 3.846153846153846 liquidity: idk
+<Thu Mar 10 20:15:09 2016> code: epw profit: $-12.90000000000019 franking_credits:$0.0 yield: 3.846153846153846 liquidity: idk
+<Thu Mar 10 20:15:40 2016> code: epw profit: $-9.947598300641403e-14 franking_credits:$0.0 yield: 3.846153846153846 liquidity: idk

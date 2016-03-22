@@ -1,0 +1,10 @@
+<Thu Mar 17 12:42:22 2016> code: MCP profit: $35839.9 franking_credits:$10234.28571428572 yield: 5.970149253731344 liquidity: yes
+<Thu Mar 17 12:42:32 2016> code: MCP profit: $199.00000000000026 franking_credits:$10234.28571428572 yield: 5.970149253731344 liquidity: yes
+<Thu Mar 17 12:48:20 2016> code: MCP profit: $199.00000000000026 franking_credits:$102.34285714285718 yield: 5.970149253731344 liquidity: yes
+<Thu Mar 17 12:49:04 2016> code: MCP profit: $39.79999999999998 franking_credits:$102.34285714285718 yield: 5.970149253731344 liquidity: yes
+<Thu Mar 17 12:54:27 2016> code: MCP profit: $19.900000000000347 franking_credits:$102.34285714285718 yield: 5.970149253731344 liquidity: yes
+<Thu Mar 17 12:54:35 2016> code: MCP profit: $-19.899999999999835 franking_credits:$102.34285714285718 yield: 5.970149253731344 liquidity: yes
+<Fri Mar 18 12:02:37 2016> code: MCP profit: $-119.39999999999938 franking_credits:$102.34285714285718 yield: 5.970149253731344 liquidity: yes
+<Mon Mar 21 12:10:43 2016> code: MCP profit: $-99.49999999999929 franking_credits:$102.34285714285718 yield: 5.970149253731344 liquidity: yes
+<Mon Mar 21 12:11:01 2016> code: MCP profit: $-59.69999999999956 franking_credits:$102.34285714285718 yield: 5.970149253731344 liquidity: yes
+<Mon Mar 21 12:11:11 2016> code: MCP profit: $-19.899999999999835 franking_credits:$102.34285714285718 yield: 5.970149253731344 liquidity: yes

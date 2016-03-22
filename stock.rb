@@ -13,7 +13,7 @@ class Stock
     @dividends               = @amount_of_shares * (@cps/100.0)
     @franking_credits        = ((@dividends/0.7) - @dividends) * @franking
     @yield                   = (cps/p_cum)
-    @hypo_price              = p_cum - ((cps/100)*0.85)
+    @hypo_price              = (pcum - (((div/100.0)/( 1 - ( (frank/100.0)*0.3 ) )) * (1-0.45))).round(4)
     @abs_path_of_file        = File.expand_path(File.dirname(__FILE__))
   end
 
@@ -40,7 +40,7 @@ class Stock
       cps: #{@cps}
       Num of shares: #{@amount_of_shares}
       Amount spent: #{@amount_spent}
-      Franked?: #{@franked}
+      Franking: #{@franking}
       Dividends: #{@dividends}
       Dividends(franked): #{@dividends_with_franking}
       Yield: #{@yield}% 

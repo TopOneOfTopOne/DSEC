@@ -1,0 +1,5 @@
+<Wed Mar  9 15:09:43 2016> code: APO profit: $-27.84000000000009 franking_credits:$ yield: 1.9130434782608696 liquidity: yes
+<Wed Mar  9 15:11:01 2016> code: APO profit: $-27.84000000000009 franking_credits:$32.81142857142858 yield: 1.9130434782608696 liquidity: yes
+<Wed Mar  9 15:16:59 2016> code: APO profit: $16.70399999999978 franking_credits:$32.81142857142858 yield: 1.9130434782608696 liquidity: yes
+<Wed Mar  9 16:26:13 2016> code: APO profit: $-12.52800000000019 franking_credits:$32.81142857142858 yield: 1.9130434782608696 liquidity: yes
+<Wed Mar  9 16:26:33 2016> code: APO profit: $16.70399999999978 franking_credits:$32.81142857142858 yield: 1.9130434782608696 liquidity: yes

@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: sgn
+p_cum: 1.005
+cps: 7.2
+liquid: 'yes'
+amount_spent: 3679.305
+amount_of_shares: 3661
+franking: 1.0
+dividends: 263.59200000000004
+franking_credits: 112.96800000000002
+yield: 7.164179104477613
+hypo_price: 0.9437999999999999
+abs_path_of_file: "/Users/CEO/Desktop/my programs/DSEC"
+time: Tue Mar 22 12:38:34 2016
+p_ex: 0.944
+profit: 40.27100000000013

@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: HSO
+p_cum: 2.55
+cps: 3.5
+liquid: 'yes'
+amount_spent: 4000.95
+amount_of_shares: 1569
+franking: 0.0
+dividends: 54.915000000000006
+franking_credits: 0.0
+yield: 1.3725490196078431
+hypo_price: 2.52025
+abs_path_of_file: "/Users/CEO/Desktop/my programs/DSEC"
+time: Wed Mar  9 15:16:10 2016
+p_ex: 2.531
+profit: 25.104000000000312

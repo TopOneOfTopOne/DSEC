@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: ARA
+p_cum: 0.355
+cps: 0.5
+liquid: 'yes'
+amount_spent: 4000.14
+amount_of_shares: 11268
+franking: 0.2
+dividends: 56.34
+franking_credits: 4.829142857142859
+yield: 1.4084507042253522
+hypo_price: 0.35075
+abs_path_of_file: "/Users/CEO/Desktop/my programs/DSEC"
+time: Wed Mar  9 15:13:37 2016
+p_ex: 0.352
+profit: 22.535999999999916

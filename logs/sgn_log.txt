@@ -1,0 +1,4 @@
+<Tue Mar 22 12:36:03 2016> code: sgn profit: $21.966000000000093 franking_credits:$5648.400000000001 yield: 3.5820895522388065 liquidity: yes
+<Tue Mar 22 12:36:56 2016> code: sgn profit: $1.9895196601282805e-13 franking_credits:$5648.400000000001 yield: 3.5820895522388065 liquidity: yes
+<Tue Mar 22 12:38:01 2016> code: sgn profit: $21.966000000000093 franking_credits:$56.48400000000001 yield: 3.5820895522388065 liquidity: yes
+<Tue Mar 22 12:38:34 2016> code: sgn profit: $40.27100000000013 franking_credits:$112.96800000000002 yield: 7.164179104477613 liquidity: yes

@@ -1,0 +1,1 @@
+<Thu Mar 10 20:24:51 2016> code: HOM profit: $40.0 franking_credits:$6857.142857142859 yield: 4.0 liquidity: idk

@@ -1,0 +1,17 @@
+--- !ruby/object:Stock
+sym: WES
+p_cum: 40.33
+cps: 91.0
+liquid: 'yes'
+amount_spent: 4033.0
+amount_of_shares: 100
+franked: 'yes'
+dividends: 91.0
+dividends_with_franking: 130.0
+yield: 2.2563848251921645
+hypo_price: 39.5565
+abs_path_of_file: "/Users/CEO/Desktop/DSEC"
+time: Mon Feb 29 15:51:27 2016
+p_ex: 39.615
+profit: 19.5
+profit_with_franking: 58.5

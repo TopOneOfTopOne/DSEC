@@ -1,0 +1,16 @@
+--- !ruby/object:Stock
+sym: APO
+p_cum: 5.75
+cps: 11.0
+liquid: 'yes'
+amount_spent: 4002.0
+amount_of_shares: 696
+franking: 1.0
+dividends: 76.56
+franking_credits: 32.81142857142858
+yield: 1.9130434782608696
+hypo_price: 5.6565
+abs_path_of_file: "/Users/CEO/Desktop/my programs/DSEC"
+time: Wed Mar  9 16:26:33 2016
+p_ex: 5.664
+profit: 16.70399999999978
